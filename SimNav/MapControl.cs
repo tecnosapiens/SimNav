@@ -38,6 +38,8 @@ namespace SimNav
         bool enSeleccionCoord;
         bool estaSelPos;
 
+        List<int> handleMap; //guarda los handles de las capas cartograficas abiertas
+
 
 
         public MapControl(Form1 mainForma)
@@ -54,12 +56,13 @@ namespace SimNav
             verTrayectoria = false;
             enSeleccionCoord = false;
             estaSelPos = false;
+            
            
         }
 
         private void MapControl_Load(object sender, EventArgs e)
         {
-
+            handleMap = new List<int>();
             //ObjGraficado = this.pictureBox1.CreateGraphics();
             bmMem = new Bitmap(this.axMap1.Width, this.axMap1.Height);
             mem = Graphics.FromImage(bmMem);
@@ -75,6 +78,8 @@ namespace SimNav
             string pathFichero = directorioActual + "\\World\\world_wgs84.shp";
             AddLayerInicial(pathFichero);
 
+            
+
             //AddLayerInicial(@"\World\world_wgs84.shp");
             //AddLayerInicial(@"C:\Users\ROCA\SimNav\SimNav\World\world_wgs84.shp");
 
@@ -82,7 +87,7 @@ namespace SimNav
 
         private void toolStrip1_toolLayers_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-
+            
             string tag = (string)e.ClickedItem.Tag;
             switch (tag)
             {
@@ -90,10 +95,16 @@ namespace SimNav
                     AddLayer();
                     break;
                 case "Remover":
-                    axMap1.RemoveAllLayers();
+                    int handleRemove = handleMap.Count - 1;
+                    if (handleRemove >= 0)
+                    {
+                        axMap1.RemoveLayer(handleMap[handleRemove]);
+                        handleMap.RemoveAt(handleRemove);
+                    }
                     break;
                 case "Limpiar":
-                    
+                    handleMap.Clear();
+                    axMap1.RemoveAllLayers();
                     break;
                 case "ZoomIn":
                     axMap1.CursorMode = MapWinGIS.tkCursorMode.cmZoomIn;
@@ -152,8 +163,9 @@ namespace SimNav
                             image = new MapWinGIS.Image();
 
                             // open image world file
-                            image.Open(openDlg.FileName, MapWinGIS.ImageType.JPEG_FILE, true, null);
+                            image.Open(openDlg.FileNames[j], MapWinGIS.ImageType.JPEG_FILE, true, null);
                             handle = axMap1.AddLayer(image, true);
+                            handleMap.Add(handle);
 
                                                        
                         }
@@ -175,6 +187,7 @@ namespace SimNav
 
                             //add the image to the legend and map
                             handle = axMap1.AddLayer(image, true);
+                            handleMap.Add(handle);
 
                             grid.Close();
 
@@ -227,6 +240,7 @@ namespace SimNav
 
                         //add the shapefile to the map and legend
                         handle = axMap1.AddLayer(shpfileOpen, true);
+                        handleMap.Add(handle);
                         string oldProj = shpfileOpen.Projection;
                         
                         // bool status = MapWinGeoProc.SpatialReference.ProjectShapefile(sourceProj, destProj, inputSF, resultSF)
@@ -253,6 +267,7 @@ namespace SimNav
 
                 //add the shapefile to the map and legend
                 handle = axMap1.AddLayer(shpfileOpen, true);
+                handleMap.Add(handle);
                 string oldProj = shpfileOpen.Projection;
 
                 // bool status = MapWinGeoProc.SpatialReference.ProjectShapefile(sourceProj, destProj, inputSF, resultSF)
