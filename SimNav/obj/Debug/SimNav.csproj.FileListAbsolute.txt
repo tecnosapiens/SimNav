@@ -1,0 +1,144 @@
+C:\Users\ROCA\Simuladores\SimNav\SimNav\bin\Debug\SimNav.exe
+C:\Users\ROCA\Simuladores\SimNav\SimNav\bin\Debug\SimNav.pdb
+C:\Users\ROCA\Simuladores\SimNav\SimNav\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ROCA\Simuladores\SimNav\SimNav\obj\Debug\SimNav.Form1.resources
+C:\Users\ROCA\Simuladores\SimNav\SimNav\obj\Debug\SimNav.Properties.Resources.resources
+C:\Users\ROCA\Simuladores\SimNav\SimNav\obj\Debug\SimNav.csproj.GenerateResource.Cache
+C:\Users\ROCA\Simuladores\SimNav\SimNav\obj\Debug\SimNav.exe
+C:\Users\ROCA\Simuladores\SimNav\SimNav\obj\Debug\SimNav.pdb
+C:\Users\ROCA\Simuladores\SimNav\SimNav\obj\Debug\SimNav.ConfiguraPuertoSerialDialog.resources
+C:\Users\ROCA\Simuladores\SimNav\SimNav\obj\Debug\SimNav.DatosBuquePropio.resources
+C:\Users\ROCA\Simuladores\SimNav\SimNav\obj\Debug\Interop.MapWinGIS.dll
+C:\Users\ROCA\Simuladores\SimNav\SimNav\obj\Debug\AxInterop.MapWinGIS.dll
+C:\Users\ROCA\Simuladores\SimNav\SimNav\obj\Debug\SimNav.csproj.ResolveComReference.cache
+C:\Users\ROCA\Simuladores\SimNav\SimNav\obj\Debug\SimNav.MapControl.resources
+C:\Users\ROCA\Simuladores\SimNav\SimNav\bin\Debug\Interop.MapWinGIS.dll
+C:\Users\ROCA\Simuladores\SimNav\SimNav\bin\Debug\AxInterop.MapWinGIS.dll
+C:\Documents and Settings\admin\Mis documentos\Data Link\DESARROLLO DEL PROYECTO\Simuladores\SimNav\SimNav\obj\Debug\Interop.MapWinGIS.dll
+C:\Documents and Settings\admin\Mis documentos\Data Link\DESARROLLO DEL PROYECTO\Simuladores\SimNav\SimNav\obj\Debug\AxInterop.MapWinGIS.dll
+C:\Documents and Settings\admin\Mis documentos\Data Link\DESARROLLO DEL PROYECTO\Simuladores\SimNav\SimNav\obj\Debug\SimNav.csproj.ResolveComReference.cache
+C:\Documents and Settings\admin\Mis documentos\Data Link\DESARROLLO DEL PROYECTO\Simuladores\SimNav\SimNav\obj\Debug\SimNav.exe
+C:\Documents and Settings\admin\Mis documentos\Data Link\DESARROLLO DEL PROYECTO\Simuladores\SimNav\SimNav\obj\Debug\SimNav.pdb
+C:\Documents and Settings\admin\Mis documentos\Data Link\DESARROLLO DEL PROYECTO\Simuladores\SimNav\SimNav\bin\Debug\SimNav.exe
+C:\Documents and Settings\admin\Mis documentos\Data Link\DESARROLLO DEL PROYECTO\Simuladores\SimNav\SimNav\bin\Debug\SimNav.pdb
+C:\Documents and Settings\admin\Mis documentos\Data Link\DESARROLLO DEL PROYECTO\Simuladores\SimNav\SimNav\bin\Debug\Interop.MapWinGIS.dll
+C:\Documents and Settings\admin\Mis documentos\Data Link\DESARROLLO DEL PROYECTO\Simuladores\SimNav\SimNav\bin\Debug\AxInterop.MapWinGIS.dll
+C:\Documents and Settings\admin\Mis documentos\Data Link\DESARROLLO DEL PROYECTO\Simuladores\SimNav\SimNav\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\Mis documentos\Data Link\DESARROLLO DEL PROYECTO\Simuladores\SimNav\SimNav\obj\Debug\SimNav.ConfiguraPuertoSerialDialog.resources
+C:\Documents and Settings\admin\Mis documentos\Data Link\DESARROLLO DEL PROYECTO\Simuladores\SimNav\SimNav\obj\Debug\SimNav.DatosBuquePropio.resources
+C:\Documents and Settings\admin\Mis documentos\Data Link\DESARROLLO DEL PROYECTO\Simuladores\SimNav\SimNav\obj\Debug\SimNav.Form1.resources
+C:\Documents and Settings\admin\Mis documentos\Data Link\DESARROLLO DEL PROYECTO\Simuladores\SimNav\SimNav\obj\Debug\SimNav.MapControl.resources
+C:\Documents and Settings\admin\Mis documentos\Data Link\DESARROLLO DEL PROYECTO\Simuladores\SimNav\SimNav\obj\Debug\SimNav.Properties.Resources.resources
+C:\Documents and Settings\admin\Mis documentos\Data Link\DESARROLLO DEL PROYECTO\Simuladores\SimNav\SimNav\obj\Debug\SimNav.csproj.GenerateResource.Cache
+C:\Users\ROCA\SimNav\SimNav\obj\Debug\Interop.MapWinGIS.dll
+C:\Users\ROCA\SimNav\SimNav\obj\Debug\AxInterop.MapWinGIS.dll
+C:\Users\ROCA\SimNav\SimNav\obj\Debug\SimNav.csproj.ResolveComReference.cache
+C:\Users\ROCA\SimNav\SimNav\obj\Debug\SimNav.exe
+C:\Users\ROCA\SimNav\SimNav\obj\Debug\SimNav.pdb
+C:\Users\ROCA\SimNav\SimNav\bin\Debug\SimNav.exe
+C:\Users\ROCA\SimNav\SimNav\bin\Debug\SimNav.pdb
+C:\Users\ROCA\SimNav\SimNav\bin\Debug\Interop.MapWinGIS.dll
+C:\Users\ROCA\SimNav\SimNav\bin\Debug\AxInterop.MapWinGIS.dll
+C:\Users\ROCA\SimNav\SimNav\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ROCA\SimNav\SimNav\obj\Debug\SimNav.ConfiguraPuertoSerialDialog.resources
+C:\Users\ROCA\SimNav\SimNav\obj\Debug\SimNav.DatosBuquePropio.resources
+C:\Users\ROCA\SimNav\SimNav\obj\Debug\SimNav.Form1.resources
+C:\Users\ROCA\SimNav\SimNav\obj\Debug\SimNav.MapControl.resources
+C:\Users\ROCA\SimNav\SimNav\obj\Debug\SimNav.Properties.Resources.resources
+C:\Users\ROCA\SimNav\SimNav\obj\Debug\SimNav.csproj.GenerateResource.Cache
+C:\Users\ROCA\Desktop\SimNav\SimNav\obj\Debug\Interop.MapWinGIS.dll
+C:\Users\ROCA\Desktop\SimNav\SimNav\obj\Debug\AxInterop.MapWinGIS.dll
+C:\Users\ROCA\Desktop\SimNav\SimNav\obj\Debug\SimNav.csproj.ResolveComReference.cache
+C:\Users\ROCA\Desktop\SimNav\SimNav\obj\Debug\SimNav.exe
+C:\Users\ROCA\Desktop\SimNav\SimNav\obj\Debug\SimNav.pdb
+C:\Users\ROCA\Desktop\SimNav\SimNav\bin\Debug\SimNav.exe
+C:\Users\ROCA\Desktop\SimNav\SimNav\bin\Debug\SimNav.pdb
+C:\Users\ROCA\Desktop\SimNav\SimNav\bin\Debug\Interop.MapWinGIS.dll
+C:\Users\ROCA\Desktop\SimNav\SimNav\bin\Debug\AxInterop.MapWinGIS.dll
+C:\Users\ROCA\Desktop\SimNav\SimNav\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ROCA\Desktop\SimNav\SimNav\obj\Debug\SimNav.ConfiguraPuertoSerialDialog.resources
+C:\Users\ROCA\Desktop\SimNav\SimNav\obj\Debug\SimNav.DatosBuquePropio.resources
+C:\Users\ROCA\Desktop\SimNav\SimNav\obj\Debug\SimNav.Form1.resources
+C:\Users\ROCA\Desktop\SimNav\SimNav\obj\Debug\SimNav.MapControl.resources
+C:\Users\ROCA\Desktop\SimNav\SimNav\obj\Debug\SimNav.Properties.Resources.resources
+C:\Users\ROCA\Desktop\SimNav\SimNav\obj\Debug\SimNav.csproj.GenerateResource.Cache
+C:\Documents and Settings\admin\Escritorio\SimNav\SimNav\obj\Debug\Interop.MapWinGIS.dll
+C:\Documents and Settings\admin\Escritorio\SimNav\SimNav\obj\Debug\AxInterop.MapWinGIS.dll
+C:\Documents and Settings\admin\Escritorio\SimNav\SimNav\obj\Debug\SimNav.csproj.ResolveComReference.cache
+C:\Documents and Settings\admin\Escritorio\SimNav\SimNav\obj\Debug\SimNav.exe
+C:\Documents and Settings\admin\Escritorio\SimNav\SimNav\obj\Debug\SimNav.pdb
+C:\Documents and Settings\admin\Escritorio\SimNav\SimNav\bin\Debug\SimNav.exe
+C:\Documents and Settings\admin\Escritorio\SimNav\SimNav\bin\Debug\SimNav.pdb
+C:\Documents and Settings\admin\Escritorio\SimNav\SimNav\bin\Debug\Interop.MapWinGIS.dll
+C:\Documents and Settings\admin\Escritorio\SimNav\SimNav\bin\Debug\AxInterop.MapWinGIS.dll
+C:\Documents and Settings\admin\Escritorio\SimNav\SimNav\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\Escritorio\SimNav\SimNav\obj\Debug\SimNav.ConfiguraPuertoSerialDialog.resources
+C:\Documents and Settings\admin\Escritorio\SimNav\SimNav\obj\Debug\SimNav.DatosBuquePropio.resources
+C:\Documents and Settings\admin\Escritorio\SimNav\SimNav\obj\Debug\SimNav.Form1.resources
+C:\Documents and Settings\admin\Escritorio\SimNav\SimNav\obj\Debug\SimNav.MapControl.resources
+C:\Documents and Settings\admin\Escritorio\SimNav\SimNav\obj\Debug\SimNav.Properties.Resources.resources
+C:\Documents and Settings\admin\Escritorio\SimNav\SimNav\obj\Debug\SimNav.csproj.GenerateResource.Cache
+C:\Users\ROCA\Desktop\GPS_monitor\SimNav\SimNav\obj\Debug\Interop.MapWinGIS.dll
+C:\Users\ROCA\Desktop\GPS_monitor\SimNav\SimNav\obj\Debug\AxInterop.MapWinGIS.dll
+C:\Users\ROCA\Desktop\GPS_monitor\SimNav\SimNav\obj\Debug\SimNav.csproj.ResolveComReference.cache
+C:\Users\ROCA\Desktop\GPS_monitor\SimNav\SimNav\obj\Debug\SimNav.exe
+C:\Users\ROCA\Desktop\GPS_monitor\SimNav\SimNav\obj\Debug\SimNav.pdb
+C:\Users\ROCA\Desktop\GPS_monitor\SimNav\SimNav\bin\Debug\SimNav.exe
+C:\Users\ROCA\Desktop\GPS_monitor\SimNav\SimNav\bin\Debug\SimNav.pdb
+C:\Users\ROCA\Desktop\GPS_monitor\SimNav\SimNav\bin\Debug\Interop.MapWinGIS.dll
+C:\Users\ROCA\Desktop\GPS_monitor\SimNav\SimNav\bin\Debug\AxInterop.MapWinGIS.dll
+C:\Users\ROCA\Desktop\GPS_monitor\SimNav\SimNav\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ROCA\Desktop\GPS_monitor\SimNav\SimNav\obj\Debug\SimNav.ConfiguraPuertoSerialDialog.resources
+C:\Users\ROCA\Desktop\GPS_monitor\SimNav\SimNav\obj\Debug\SimNav.DatosBuquePropio.resources
+C:\Users\ROCA\Desktop\GPS_monitor\SimNav\SimNav\obj\Debug\SimNav.Form1.resources
+C:\Users\ROCA\Desktop\GPS_monitor\SimNav\SimNav\obj\Debug\SimNav.MapControl.resources
+C:\Users\ROCA\Desktop\GPS_monitor\SimNav\SimNav\obj\Debug\SimNav.Properties.Resources.resources
+C:\Users\ROCA\Desktop\GPS_monitor\SimNav\SimNav\obj\Debug\SimNav.csproj.GenerateResource.Cache
+C:\Documents and Settings\admin\Escritorio\SimNav_v2\SimNav\obj\Debug\Interop.MapWinGIS.dll
+C:\Documents and Settings\admin\Escritorio\SimNav_v2\SimNav\obj\Debug\AxInterop.MapWinGIS.dll
+C:\Documents and Settings\admin\Escritorio\SimNav_v2\SimNav\obj\Debug\SimNav.csproj.ResolveComReference.cache
+C:\Documents and Settings\admin\Escritorio\SimNav_v2\SimNav\obj\Debug\SimNav.exe
+C:\Documents and Settings\admin\Escritorio\SimNav_v2\SimNav\obj\Debug\SimNav.pdb
+C:\Documents and Settings\admin\Escritorio\SimNav_v2\SimNav\bin\Debug\SimNav.exe
+C:\Documents and Settings\admin\Escritorio\SimNav_v2\SimNav\bin\Debug\SimNav.pdb
+C:\Documents and Settings\admin\Escritorio\SimNav_v2\SimNav\bin\Debug\Interop.MapWinGIS.dll
+C:\Documents and Settings\admin\Escritorio\SimNav_v2\SimNav\bin\Debug\AxInterop.MapWinGIS.dll
+C:\Documents and Settings\admin\Escritorio\SimNav_v2\SimNav\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\Escritorio\SimNav_v2\SimNav\obj\Debug\SimNav.ConfiguraPuertoSerialDialog.resources
+C:\Documents and Settings\admin\Escritorio\SimNav_v2\SimNav\obj\Debug\SimNav.DatosBuquePropio.resources
+C:\Documents and Settings\admin\Escritorio\SimNav_v2\SimNav\obj\Debug\SimNav.Form1.resources
+C:\Documents and Settings\admin\Escritorio\SimNav_v2\SimNav\obj\Debug\SimNav.MapControl.resources
+C:\Documents and Settings\admin\Escritorio\SimNav_v2\SimNav\obj\Debug\SimNav.Properties.Resources.resources
+C:\Documents and Settings\admin\Escritorio\SimNav_v2\SimNav\obj\Debug\SimNav.csproj.GenerateResource.Cache
+C:\Users\ROCA\Desktop\SimNav_v2\SimNav\obj\Debug\Interop.MapWinGIS.dll
+C:\Users\ROCA\Desktop\SimNav_v2\SimNav\obj\Debug\AxInterop.MapWinGIS.dll
+C:\Users\ROCA\Desktop\SimNav_v2\SimNav\obj\Debug\SimNav.csproj.ResolveComReference.cache
+C:\Users\ROCA\Desktop\SimNav_v2\SimNav\obj\Debug\SimNav.exe
+C:\Users\ROCA\Desktop\SimNav_v2\SimNav\obj\Debug\SimNav.pdb
+C:\Users\ROCA\Desktop\SimNav_v2\SimNav\bin\Debug\SimNav.exe
+C:\Users\ROCA\Desktop\SimNav_v2\SimNav\bin\Debug\SimNav.pdb
+C:\Users\ROCA\Desktop\SimNav_v2\SimNav\bin\Debug\Interop.MapWinGIS.dll
+C:\Users\ROCA\Desktop\SimNav_v2\SimNav\bin\Debug\AxInterop.MapWinGIS.dll
+C:\Users\ROCA\Desktop\SimNav_v2\SimNav\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ROCA\Desktop\SimNav_v2\SimNav\obj\Debug\SimNav.ConfiguraPuertoSerialDialog.resources
+C:\Users\ROCA\Desktop\SimNav_v2\SimNav\obj\Debug\SimNav.DatosBuquePropio.resources
+C:\Users\ROCA\Desktop\SimNav_v2\SimNav\obj\Debug\SimNav.Form1.resources
+C:\Users\ROCA\Desktop\SimNav_v2\SimNav\obj\Debug\SimNav.MapControl.resources
+C:\Users\ROCA\Desktop\SimNav_v2\SimNav\obj\Debug\SimNav.Properties.Resources.resources
+C:\Users\ROCA\Desktop\SimNav_v2\SimNav\obj\Debug\SimNav.csproj.GenerateResource.Cache
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\SimNav_v2\SimNav\bin\Debug\SimNav.exe
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\SimNav_v2\SimNav\bin\Debug\SimNav.pdb
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\SimNav_v2\SimNav\bin\Debug\Interop.MapWinGIS.dll
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\SimNav_v2\SimNav\bin\Debug\AxInterop.MapWinGIS.dll
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\SimNav_v2\SimNav\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\SimNav_v2\SimNav\obj\Debug\Interop.MapWinGIS.dll
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\SimNav_v2\SimNav\obj\Debug\AxInterop.MapWinGIS.dll
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\SimNav_v2\SimNav\obj\Debug\SimNav.csproj.ResolveComReference.cache
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\SimNav_v2\SimNav\obj\Debug\SimNav.ConfiguraPuertoSerialDialog.resources
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\SimNav_v2\SimNav\obj\Debug\SimNav.DatosBuquePropio.resources
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\SimNav_v2\SimNav\obj\Debug\SimNav.Form1.resources
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\SimNav_v2\SimNav\obj\Debug\SimNav.MapControl.resources
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\SimNav_v2\SimNav\obj\Debug\SimNav.Properties.Resources.resources
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\SimNav_v2\SimNav\obj\Debug\SimNav.csproj.GenerateResource.Cache
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\SimNav_v2\SimNav\obj\Debug\SimNav.exe
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\SimNav_v2\SimNav\obj\Debug\SimNav.pdb
