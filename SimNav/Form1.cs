@@ -254,13 +254,21 @@ namespace SimNav
 
         private void button_configurarDatosBuque_Click(object sender, EventArgs e)
         {
-            this.tabPage_configuracion.Controls.Add(buquePropio);
-            buquePropio.Location = new Point(groupBox_datosConfigurados.Location.X, groupBox_datosConfigurados.Location.Y);
-            //buquePropio.Size = new Size(groupBox_datosConfigurados.Size.Width, groupBox_datosConfigurados.Size.Height);
-            buquePropio.BringToFront();
-            buquePropio.Visible = true;
-            buquePropio.set_seleccionCoordenadas(true);
-            canvasMapa.set_cursorSeleccionCoordenadas();
+            if (buquePropio.get_estadoHiloNavegacion())
+            {
+                buquePropio.killProcesoNavegacion();
+            }
+                this.tabPage_configuracion.Controls.Add(buquePropio);
+                buquePropio.Location = new Point(groupBox_datosConfigurados.Location.X, groupBox_datosConfigurados.Location.Y);
+                //buquePropio.Size = new Size(groupBox_datosConfigurados.Size.Width, groupBox_datosConfigurados.Size.Height);
+                buquePropio.BringToFront();
+                buquePropio.Visible = true;
+                buquePropio.set_seleccionCoordenadas(true);
+                canvasMapa.set_cursorSeleccionCoordenadas();
+            
+           
+            
+                
            
             
             

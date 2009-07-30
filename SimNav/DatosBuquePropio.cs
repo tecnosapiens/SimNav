@@ -55,7 +55,7 @@ namespace SimNav
 
         private void button_aceptarDatosBuquePropio_Click(object sender, EventArgs e)
         {
-            killProcesoNavegacion();
+            //killProcesoNavegacion();
             seleccionCoordenadas = false;
             buquePropio.setDatosBuquePropio((int)numericUpDown_gradoLatitud.Value,
                                           (int)numericUpDown_minutoLatitud.Value,

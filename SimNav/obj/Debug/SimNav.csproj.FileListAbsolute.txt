@@ -158,3 +158,19 @@ C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\Develop
 C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\Developer1_SimNav\SimNav\obj\Debug\SimNav.MapControl.resources
 C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\Developer1_SimNav\SimNav\obj\Debug\SimNav.Properties.Resources.resources
 C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\Developer1_SimNav\SimNav\obj\Debug\SimNav.csproj.GenerateResource.Cache
+C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\obj\Debug\Interop.MapWinGIS.dll
+C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\obj\Debug\AxInterop.MapWinGIS.dll
+C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\obj\Debug\SimNav.csproj.ResolveComReference.cache
+C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\obj\Debug\SimNav.exe
+C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\obj\Debug\SimNav.pdb
+C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\bin\Debug\SimNav.exe
+C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\bin\Debug\SimNav.pdb
+C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\bin\Debug\Interop.MapWinGIS.dll
+C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\bin\Debug\AxInterop.MapWinGIS.dll
+C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\obj\Debug\ResolveAssemblyReference.cache
+C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\obj\Debug\SimNav.ConfiguraPuertoSerialDialog.resources
+C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\obj\Debug\SimNav.DatosBuquePropio.resources
+C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\obj\Debug\SimNav.Form1.resources
+C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\obj\Debug\SimNav.MapControl.resources
+C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\obj\Debug\SimNav.Properties.Resources.resources
+C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\obj\Debug\SimNav.csproj.GenerateResource.Cache
