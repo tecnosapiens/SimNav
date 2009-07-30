@@ -44,6 +44,7 @@
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.legend1 = new LegendControl.Legend();
             ((System.ComponentModel.ISupportInitialize)(this.axMap1)).BeginInit();
             this.toolStrip1_toolLayers.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -52,10 +53,10 @@
             // axMap1
             // 
             this.axMap1.Enabled = true;
-            this.axMap1.Location = new System.Drawing.Point(9, 28);
+            this.axMap1.Location = new System.Drawing.Point(162, 28);
             this.axMap1.Name = "axMap1";
             this.axMap1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axMap1.OcxState")));
-            this.axMap1.Size = new System.Drawing.Size(781, 469);
+            this.axMap1.Size = new System.Drawing.Size(628, 469);
             this.axMap1.TabIndex = 0;
             this.axMap1.MouseDownEvent += new AxMapWinGIS._DMapEvents_MouseDownEventHandler(this.axMap1_MouseDownEvent);
             this.axMap1.MouseUpEvent += new AxMapWinGIS._DMapEvents_MouseUpEventHandler(this.axMap1_MouseUpEvent);
@@ -74,7 +75,7 @@
             this.toolStripButton8});
             this.toolStrip1_toolLayers.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1_toolLayers.Name = "toolStrip1_toolLayers";
-            this.toolStrip1_toolLayers.Size = new System.Drawing.Size(805, 25);
+            this.toolStrip1_toolLayers.Size = new System.Drawing.Size(807, 25);
             this.toolStrip1_toolLayers.TabIndex = 4;
             this.toolStrip1_toolLayers.Text = "toolStrip1";
             this.toolStrip1_toolLayers.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip1_toolLayers_ItemClicked);
@@ -98,7 +99,6 @@
             this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton2.Tag = "Remover";
             this.toolStripButton2.Text = "Cerrar Mapa";
-           
             // 
             // toolStripButton3
             // 
@@ -169,10 +169,10 @@
             this.toolStripStatusLabel2,
             this.toolStripStatusLabel3,
             this.toolStripStatusLabel4});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 499);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 501);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.ShowItemToolTips = true;
-            this.statusStrip1.Size = new System.Drawing.Size(805, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(807, 22);
             this.statusStrip1.TabIndex = 5;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -212,17 +212,31 @@
             this.toolStripStatusLabel4.Size = new System.Drawing.Size(75, 17);
             this.toolStripStatusLabel4.Text = "Longitud Movil";
             // 
+            // legend1
+            // 
+            this.legend1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.legend1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.legend1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.legend1.Location = new System.Drawing.Point(0, 28);
+            this.legend1.Map = null;
+            this.legend1.Name = "legend1";
+            this.legend1.SelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.legend1.SelectedLayer = -1;
+            this.legend1.Size = new System.Drawing.Size(156, 468);
+            this.legend1.TabIndex = 6;
+            // 
             // MapControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.legend1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1_toolLayers);
             this.Controls.Add(this.axMap1);
             this.Location = new System.Drawing.Point(378, 6);
             this.Name = "MapControl";
-            this.Size = new System.Drawing.Size(805, 521);
+            this.Size = new System.Drawing.Size(807, 523);
             this.Load += new System.EventHandler(this.MapControl_Load);
             ((System.ComponentModel.ISupportInitialize)(this.axMap1)).EndInit();
             this.toolStrip1_toolLayers.ResumeLayout(false);
@@ -251,5 +265,6 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel4;
         private System.Windows.Forms.ToolStripButton toolStripButton8;
+        private LegendControl.Legend legend1;
     }
 }

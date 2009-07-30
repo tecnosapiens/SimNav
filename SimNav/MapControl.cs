@@ -56,12 +56,17 @@ namespace SimNav
             verTrayectoria = false;
             enSeleccionCoord = false;
             estaSelPos = false;
+
+           
             
            
         }
 
         private void MapControl_Load(object sender, EventArgs e)
         {
+            //**Inicializando el componente legend1 para que tome control del canvas de MapWinGIS**//
+            legend1.Map = (MapWinGIS.Map)axMap1.GetOcx();
+            
             handleMap = new List<int>();
             //ObjGraficado = this.pictureBox1.CreateGraphics();
             bmMem = new Bitmap(this.axMap1.Width, this.axMap1.Height);
@@ -95,26 +100,32 @@ namespace SimNav
                     AddLayer();
                     break;
                 case "Remover":
-                    int handleRemove = handleMap.Count - 1;
-                    if (handleRemove >= 0)
-                    {
-                        axMap1.RemoveLayer(handleMap[handleRemove]);
-                        handleMap.RemoveAt(handleRemove);
-                    }
+                    legend1.Layers.Remove(legend1.SelectedLayer);
+                    legend1.Refresh();
+                    
+                    //int handleRemove = handleMap.Count - 1;
+                    //if (handleRemove >= 0)
+                    //{
+                    //    axMap1.RemoveLayer(handleMap[handleRemove]);
+                    //    handleMap.RemoveAt(handleRemove);
+                    //}
                     break;
                 case "Limpiar":
+                    legend1.Layers.Clear();
                     handleMap.Clear();
-                    axMap1.RemoveAllLayers();
+                    //axMap1.RemoveAllLayers();
                     break;
                 case "ZoomIn":
                     axMap1.CursorMode = MapWinGIS.tkCursorMode.cmZoomIn;
-
+                    refreshMapa();
                     break;
                 case "ZoomOut":
                     axMap1.CursorMode = MapWinGIS.tkCursorMode.cmZoomOut;
+                    refreshMapa();
                     break;
                 case "Pan":
                     axMap1.CursorMode = MapWinGIS.tkCursorMode.cmPan;
+                    refreshMapa();
                     break;
                 case "FullExtents":
                     axMap1.ZoomToMaxExtents();
@@ -164,7 +175,9 @@ namespace SimNav
 
                             // open image world file
                             image.Open(openDlg.FileNames[j], MapWinGIS.ImageType.JPEG_FILE, true, null);
-                            handle = axMap1.AddLayer(image, true);
+                            handle = legend1.Layers.Add(image, true);
+                            legend1.Map.set_LayerName(handle, System.IO.Path.GetFileNameWithoutExtension(image.Filename));
+                            //handle = axMap1.AddLayer(image, true);
                             handleMap.Add(handle);
 
                                                        
@@ -239,7 +252,9 @@ namespace SimNav
 
 
                         //add the shapefile to the map and legend
-                        handle = axMap1.AddLayer(shpfileOpen, true);
+                        handle = legend1.Layers.Add(shpfileOpen, true);
+                        legend1.Map.set_LayerName(handle, System.IO.Path.GetFileNameWithoutExtension(shpfileOpen.Filename));
+                        //handle = axMap1.AddLayer(shpfileOpen, true);
                         handleMap.Add(handle);
                         string oldProj = shpfileOpen.Projection;
                         
@@ -266,7 +281,9 @@ namespace SimNav
 
 
                 //add the shapefile to the map and legend
-                handle = axMap1.AddLayer(shpfileOpen, true);
+                //handle = axMap1.AddLayer(shpfileOpen, true); //sin control legend
+                handle = legend1.Layers.Add(shpfileOpen, true);
+                legend1.Map.set_LayerName(handle, System.IO.Path.GetFileNameWithoutExtension(shpfileOpen.Filename));
                 handleMap.Add(handle);
                 string oldProj = shpfileOpen.Projection;
 
@@ -500,6 +517,8 @@ namespace SimNav
             this.Visible = true;
 
             axMap1.Size = new Size(whith -20, height - statusStrip1.Height);
+            // Se inicializa la visualizacion del contorl Legend1 del arbol de mapas abierto.
+            this.legend1.Size = new Size(legend1.Width, height - (statusStrip1.Height+35));
             refreshMapa();
 
         }
@@ -518,6 +537,7 @@ namespace SimNav
             else
             {
                  this.axMap1.Refresh();
+                 //this.legend1.Refresh();
                
                  
                 

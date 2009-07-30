@@ -45,6 +45,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox_datosConfigurados = new System.Windows.Forms.GroupBox();
             this.groupBox_controlBuque = new System.Windows.Forms.GroupBox();
+            this.checkBox_verTrayectoria = new System.Windows.Forms.CheckBox();
             this.numericUpDown_anguloTimon = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_velocidadBuque = new System.Windows.Forms.NumericUpDown();
             this.label16 = new System.Windows.Forms.Label();
@@ -104,15 +105,14 @@
             this.label_nombreArchivo = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.button_detener = new System.Windows.Forms.Button();
-            this.checkBox_Loop = new System.Windows.Forms.CheckBox();
             this.button_limpiar = new System.Windows.Forms.Button();
             this.button_transmitir = new System.Windows.Forms.Button();
             this.button_configurarPuerto = new System.Windows.Forms.Button();
             this.listBox_visorDatosNmea = new System.Windows.Forms.ListBox();
             this.groupBox_pantallaTramasNMEA = new System.Windows.Forms.GroupBox();
             this.openFileDialog_seleccionArchivo = new System.Windows.Forms.OpenFileDialog();
-            this.checkBox_verTrayectoria = new System.Windows.Forms.CheckBox();
             this.checkBox_ocultarPanelTramasNMEA = new System.Windows.Forms.CheckBox();
+            this.checkBox_Loop = new System.Windows.Forms.CheckBox();
             this.tabControl_controles.SuspendLayout();
             this.tabPage_configuracion.SuspendLayout();
             this.groupBox_estadoConexion.SuspendLayout();
@@ -142,7 +142,6 @@
             // 
             // tabPage_configuracion
             // 
-            this.tabPage_configuracion.Controls.Add(this.checkBox_Loop);
             this.tabPage_configuracion.Controls.Add(this.groupBox_estadoConexion);
             this.tabPage_configuracion.Controls.Add(this.label1);
             this.tabPage_configuracion.Controls.Add(this.groupBox_datosConfigurados);
@@ -336,6 +335,18 @@
             this.groupBox_controlBuque.TabIndex = 36;
             this.groupBox_controlBuque.TabStop = false;
             this.groupBox_controlBuque.Text = "Control del Buque";
+            // 
+            // checkBox_verTrayectoria
+            // 
+            this.checkBox_verTrayectoria.AutoSize = true;
+            this.checkBox_verTrayectoria.Checked = true;
+            this.checkBox_verTrayectoria.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_verTrayectoria.Location = new System.Drawing.Point(19, 79);
+            this.checkBox_verTrayectoria.Name = "checkBox_verTrayectoria";
+            this.checkBox_verTrayectoria.Size = new System.Drawing.Size(98, 17);
+            this.checkBox_verTrayectoria.TabIndex = 33;
+            this.checkBox_verTrayectoria.Text = "Ver Trayectoria";
+            this.checkBox_verTrayectoria.UseVisualStyleBackColor = true;
             // 
             // numericUpDown_anguloTimon
             // 
@@ -746,7 +757,7 @@
             this.tabPage_sensores.Location = new System.Drawing.Point(4, 22);
             this.tabPage_sensores.Name = "tabPage_sensores";
             this.tabPage_sensores.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_sensores.Size = new System.Drawing.Size(343, 780);
+            this.tabPage_sensores.Size = new System.Drawing.Size(343, 804);
             this.tabPage_sensores.TabIndex = 1;
             this.tabPage_sensores.Text = "Sensores";
             this.tabPage_sensores.UseVisualStyleBackColor = true;
@@ -981,24 +992,24 @@
             this.tabPage_reproducción.Controls.Add(this.groupBox_reproduccion);
             this.tabPage_reproducción.Location = new System.Drawing.Point(4, 22);
             this.tabPage_reproducción.Name = "tabPage_reproducción";
-            this.tabPage_reproducción.Size = new System.Drawing.Size(343, 780);
+            this.tabPage_reproducción.Size = new System.Drawing.Size(343, 804);
             this.tabPage_reproducción.TabIndex = 2;
             this.tabPage_reproducción.Text = "Reproducción";
             this.tabPage_reproducción.UseVisualStyleBackColor = true;
             // 
             // groupBox_reproduccion
             // 
+            this.groupBox_reproduccion.Controls.Add(this.checkBox_Loop);
             this.groupBox_reproduccion.Controls.Add(this.button_seleccionArchivo);
             this.groupBox_reproduccion.Controls.Add(this.label_nombreArchivo);
             this.groupBox_reproduccion.Controls.Add(this.label7);
             this.groupBox_reproduccion.Enabled = false;
             this.groupBox_reproduccion.Location = new System.Drawing.Point(22, 55);
             this.groupBox_reproduccion.Name = "groupBox_reproduccion";
-            this.groupBox_reproduccion.Size = new System.Drawing.Size(288, 298);
+            this.groupBox_reproduccion.Size = new System.Drawing.Size(288, 390);
             this.groupBox_reproduccion.TabIndex = 3;
             this.groupBox_reproduccion.TabStop = false;
             this.groupBox_reproduccion.Text = "Reproducción Archivo Datos";
-            this.groupBox_reproduccion.Visible = false;
             // 
             // button_seleccionArchivo
             // 
@@ -1016,7 +1027,7 @@
             this.label_nombreArchivo.AutoSize = true;
             this.label_nombreArchivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_nombreArchivo.ForeColor = System.Drawing.Color.Red;
-            this.label_nombreArchivo.Location = new System.Drawing.Point(18, 201);
+            this.label_nombreArchivo.Location = new System.Drawing.Point(18, 280);
             this.label_nombreArchivo.Name = "label_nombreArchivo";
             this.label_nombreArchivo.Size = new System.Drawing.Size(31, 20);
             this.label_nombreArchivo.TabIndex = 2;
@@ -1026,7 +1037,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(15, 154);
+            this.label7.Location = new System.Drawing.Point(18, 232);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(136, 20);
             this.label7.TabIndex = 1;
@@ -1042,22 +1053,6 @@
             this.button_detener.Text = "Detener Data";
             this.button_detener.UseVisualStyleBackColor = true;
             this.button_detener.Click += new System.EventHandler(this.button_detener_Click);
-            // 
-            // checkBox_Loop
-            // 
-            this.checkBox_Loop.AutoSize = true;
-            this.checkBox_Loop.Checked = true;
-            this.checkBox_Loop.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox_Loop.Enabled = false;
-            this.checkBox_Loop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Loop.Location = new System.Drawing.Point(13, 771);
-            this.checkBox_Loop.Name = "checkBox_Loop";
-            this.checkBox_Loop.Size = new System.Drawing.Size(193, 20);
-            this.checkBox_Loop.TabIndex = 30;
-            this.checkBox_Loop.Text = "Envio de Datos en Loop";
-            this.checkBox_Loop.UseVisualStyleBackColor = true;
-            this.checkBox_Loop.Visible = false;
-            this.checkBox_Loop.CheckedChanged += new System.EventHandler(this.checkBox_Loop_CheckedChanged);
             // 
             // button_limpiar
             // 
@@ -1117,18 +1112,6 @@
             // 
             this.openFileDialog_seleccionArchivo.FileName = "openFileDialog1";
             // 
-            // checkBox_verTrayectoria
-            // 
-            this.checkBox_verTrayectoria.AutoSize = true;
-            this.checkBox_verTrayectoria.Checked = true;
-            this.checkBox_verTrayectoria.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox_verTrayectoria.Location = new System.Drawing.Point(19, 79);
-            this.checkBox_verTrayectoria.Name = "checkBox_verTrayectoria";
-            this.checkBox_verTrayectoria.Size = new System.Drawing.Size(98, 17);
-            this.checkBox_verTrayectoria.TabIndex = 33;
-            this.checkBox_verTrayectoria.Text = "Ver Trayectoria";
-            this.checkBox_verTrayectoria.UseVisualStyleBackColor = true;
-            // 
             // checkBox_ocultarPanelTramasNMEA
             // 
             this.checkBox_ocultarPanelTramasNMEA.AutoSize = true;
@@ -1139,6 +1122,21 @@
             this.checkBox_ocultarPanelTramasNMEA.Text = "Ocultar Panel Tramas Enviadas";
             this.checkBox_ocultarPanelTramasNMEA.UseVisualStyleBackColor = true;
             this.checkBox_ocultarPanelTramasNMEA.CheckedChanged += new System.EventHandler(this.checkBox_ocultarPanelTramasNMEA_CheckedChanged);
+            // 
+            // checkBox_Loop
+            // 
+            this.checkBox_Loop.AutoSize = true;
+            this.checkBox_Loop.Checked = true;
+            this.checkBox_Loop.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_Loop.Enabled = false;
+            this.checkBox_Loop.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_Loop.Location = new System.Drawing.Point(48, 139);
+            this.checkBox_Loop.Name = "checkBox_Loop";
+            this.checkBox_Loop.Size = new System.Drawing.Size(193, 20);
+            this.checkBox_Loop.TabIndex = 31;
+            this.checkBox_Loop.Text = "Envio de Datos en Loop";
+            this.checkBox_Loop.UseVisualStyleBackColor = true;
+            this.checkBox_Loop.Visible = false;
             // 
             // Form1
             // 
@@ -1157,6 +1155,8 @@
             this.Name = "Form1";
             this.Text = "SIMULADOR DE SENSORES DE NAVEGACION";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.MaximizedBoundsChanged += new System.EventHandler(this.Form1_MaximizedBoundsChanged);
+            this.SizeChanged += new System.EventHandler(this.Form1_SizeChanged);
             this.tabControl_controles.ResumeLayout(false);
             this.tabPage_configuracion.ResumeLayout(false);
             this.tabPage_configuracion.PerformLayout();
@@ -1222,7 +1222,6 @@
         public System.Windows.Forms.Label label_velViento;
         private System.Windows.Forms.Button button_limpiar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.CheckBox checkBox_Loop;
         public System.Windows.Forms.ListBox listBox_visorDatosNmea;
         private System.Windows.Forms.Button button_detener;
         public System.Windows.Forms.GroupBox groupBox_pantallaTramasNMEA;
@@ -1268,6 +1267,7 @@
         private System.Windows.Forms.CheckBox checkBox_gpsPropio;
         private System.Windows.Forms.CheckBox checkBox_verTrayectoria;
         private System.Windows.Forms.CheckBox checkBox_ocultarPanelTramasNMEA;
+        private System.Windows.Forms.CheckBox checkBox_Loop;
     }
 }
 

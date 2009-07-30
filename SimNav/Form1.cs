@@ -76,6 +76,8 @@ namespace SimNav
         private void button_transmitir_Click(object sender, EventArgs e)
         {
             button_transmitir.Enabled = false;
+            groupBox_reproduccion.Enabled = false;
+
             if(ObjetoPuertoSerial.get_estadoPuertoSerial())
             {
                 label_bitDatos.Text = ObjetoPuertoSerial.getBitDatos();
@@ -303,6 +305,7 @@ namespace SimNav
             button_seleccionArchivo.Enabled = true;
             button_configurarPuerto.Enabled = true;
             button_transmitir.Enabled = true;
+            groupBox_reproduccion.Enabled = true;
 
            // this.checkBox_navegacionBuque.Click += new System.EventHandler(this.checkBox_navegacionBuque_CheckedChanged);
         }
@@ -579,6 +582,7 @@ private void button_seleccionArchivo_Click(object sender, EventArgs e)
         buquePropio.killProcesoNavegacion();
     }
 
+    checkBox_Loop.Visible = true;
     checkBox_Loop.Enabled = true;
     checkBox_navegacionBuque.Checked = false;
     if (!ObjetoPuertoSerial.get_estadoPuertoSerial())
@@ -698,6 +702,16 @@ void EnviarDataReproduccionSinLoop()
                 canvasMapa.redimensionarCanvas((canvasMapa.Width), (canvasMapa.Height - groupBox_pantallaTramasNMEA.Height));
                 
             }
+        }
+
+        private void Form1_MaximizedBoundsChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void Form1_SizeChanged(object sender, EventArgs e)
+        {
+            canvasMapa.redimensionarCanvas((this.Width-tabControl_controles.Width) - 50, canvasMapa.Height);
         }
 
     }// fin de clase 

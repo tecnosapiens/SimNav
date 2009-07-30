@@ -174,3 +174,5 @@ C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\obj\Debug\SimNav.Form1.r
 C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\obj\Debug\SimNav.MapControl.resources
 C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\obj\Debug\SimNav.Properties.Resources.resources
 C:\Repositorio Proyectos Propios\Programa SimNav\SimNav\obj\Debug\SimNav.csproj.GenerateResource.Cache
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\Developer1_SimNav\SimNav\bin\Debug\MapWinInterfaces.dll
+C:\Documents and Settings\admin\Escritorio\Repositorio Proyectos Propios\Developer1_SimNav\SimNav\bin\Debug\MapWinInterfaces.xml
